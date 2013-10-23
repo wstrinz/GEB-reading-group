@@ -1,4 +1,4 @@
-### 1:
+### 1: Formal Systems and Meaning - Nov ?
   Introduction: A Musico-Logical Offering  
   
   _Three-Part Invention_  
