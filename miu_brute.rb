@@ -1,3 +1,5 @@
+# Sorry
+
 class MIU
   def initialize
     @str = "MI"
@@ -87,7 +89,29 @@ class MIU
     end
   end
 
+  def self.shortest_steps(pattern, tries=15, timeout=1)
+    min_length = nil
+    best = nil
+    tries.times do
+      s = steps_to(pattern, timeout)
+      unless min_length
+        min_length = s.size
+        best = s
+      end
+      if s.size < min_length
+        best = s
+        min_length = s.size
+      end
+    end
+
+    best
+  end
+
   def self.pretty_steps(pattern, timeout=nil)
     puts steps_to(pattern, timeout).map{|s| s.join "\t"}.join "\n"
+  end
+
+  def self.short_pretty_steps(pattern)
+    puts shortest_steps(pattern).map{|s| s.join "\t"}.join "\n"
   end
 end
