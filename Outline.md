@@ -7,6 +7,10 @@
   _Two-Part Invention_  
   Meaning and Form in Mathematics
   
+##### Related Files
+  
+  * [MIU Explorer](https://github.com/wstrinz/GEB-reading-group/blob/master/miu_brute.rb)
+  
 ### 2:
   _Sonata for Unaccompanied Achilles_  
   Figure and Ground  
