@@ -7,6 +7,9 @@
   _Two-Part Invention_
   Meaning and Form in Mathematics
 
+###### Related files
+  * [MIU Explorer](https://github.com/wstrinz/GEB-reading-group/blob/master/miu_brute.rb)
+
 ### 2: - Nov 21
   _Sonata for Unaccompanied Achilles_
   Figure and Ground
@@ -17,6 +20,7 @@
   _Little Harmonic Labyrinth_
   Recursive Structures and Processes
 
+  
 ### 3:
   _Canon by Intervallic Augmentation_
   The Location of Meaning
